@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Página principal</title>
+		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
 		<header>
@@ -10,55 +11,140 @@
 				<img src="assets/icon/home.svg"/>
 			</a>
 			<nav>
-				<a href="#sec-a">Secció A</a>
-				<a href="#sec-b">Secció B</a>
 				<a href="index.html">Inicio</a>
 				<a href="cv.html">CV</a>
 				<a href="contact.html">Contacto</a>
 			</nav>
 		</header>
-		<h1 id="title">Títol</h1>
-		<section>
-			<h2 id="sec-a">Secció A</h2>
+		<article>
+			<header>
+				<img src="https://picsum.photos/300/100/">
+				<h1 id="title">Mi portafolios</h1>
+			</header>
 			<main>
-				<p>
-				Lorem ipsum dolor sit amet.
-				Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-				Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-				when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-				It has survived not only five centuries,
-				but also the leap into electronic typesetting,
-				remaining essentially unchanged.
-				It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-				and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-				<img src="https://fakeimg.pl/300x200/?text=Foobar"/>
+				<section>
+					<header>
+						<h2 id="intro">Hola</h2>
+					</header>
+					<main style="overflow:hidden;">
+						<img src="https://picsum.photos/300/200/" style="float:right;">
+						<p>
+						Lorem ipsum dolor sit amet.
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+						Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+						when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+						It has survived not only five centuries,
+						but also the leap into electronic typesetting,
+						remaining essentially unchanged.
+						It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+						and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+						</p>
+					</main>
+				</section>
+				<section>
+					<header>
+						<h2 id="projects">Mis proyectos</h2>
+					</header>
+					<main>
+						<article>
+							<img src="https://picsum.photos/100/50"/>
+							<p>
+							Lorem ipsum dolor sit amet.
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+							Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+							when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+							</p>
+							<button>Ver más</button>
+						</article>
+						<article>
+							<img src="https://picsum.photos/100/50"/>
+							<p>
+							Lorem ipsum dolor sit amet.
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+							Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+							when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+							</p>
+							<button>Ver más</button>
+						</article>
+						<article>
+							<img src="https://picsum.photos/100/50"/>
+							<p>
+							Lorem ipsum dolor sit amet.
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+							Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+							when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+							</p>
+							<button>Ver más</button>
+						</article>
+					</main>
+				</section>
+				<section>
+					<header>
+						<h2 id="skills">Mis conocimientos</h2>
+					</header>
+					<main>
+						<img src="assets/img/html-1.svg">
+						<img src="assets/img/css-3.svg">
+						<img src="assets/img/javascript-1 1.svg">
+					</main>
+				</section>
+				<section class="dark">
+					<header>
+						<h2 id="experience">Experiencia</h2>
+					</header>
+					<main>
+						<img src="assets/img/grafic_html.svg">
+						<img src="assets/img/grafic_css.svg">
+						<img src="assets/img/grafic_js.svg">
+					</main>
+				</section>
+				<section>
+					<header>
+						<h2 id="hobbies">Mis aficiones</h2>
+					</header>
+					<main>
+						<ul class="flexbox">
+							<li>
+								Viajar
+								<img src="assets/icon/flight.svg">
+							</li>
+							<li>
+								Mirar series
+								<img src="assets/icon/live_tv.svg">
+							</li>
+							<li>
+								Música
+								<img src="assets/icon/music_note.svg">
+							</li>
+							<li>
+								Pixelart CSS
+								<img src="assets/icon/code.svg">
+							</li>
+							<li>
+								Leer
+								<img src="assets/icon/menu_book.svg">
+							</li>
+							<li>
+								Taijitsu
+								<img src="assets/icon/sports_kabaddi.svg">
+							</li>
+						</ul>
+					</main>
+				</section>
 			</main>
-		</section>
-		<section>
-			<h2 id="sec-b">Secció B</h2>
-			<main>
-				<article>
-					<img src="https://picsum.photos/100/50"/>
-					<p>
-					Lorem ipsum dolor sit amet.
-					Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-					Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-					when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-					</p>
-					<button>Hello</button>
-				</article>
-				<article>
-					<img src="https://picsum.photos/100/50"/>
-					<p>
-					Lorem ipsum dolor sit amet.
-					Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-					Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-					when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-					</p>
-					<button>Hello</button>
-				</article>
-			</main>
-		</section>
+		</article>
+		<footer class="dark">
+			<nav>
+				<a href="https://twitter.com/">
+					<img src="assets/img/logo-twitter.svg" style="width:2em;">
+				</a>
+				<a href="https://linkedin.com/">
+					<img src="assets/img/logo-linkedin.svg" style="width:2em;">
+				</a>
+				<a href="https://instagram.com/">
+					<img src="assets/img/logo-instagram.svg" style="width:2em;">
+				</a>
+			</nav>
+		</footer>
 	</body>
 </html>
-

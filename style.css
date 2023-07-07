@@ -1,0 +1,26 @@
+.flexbox {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.flexbox > li {
+	display: block;
+	padding: 1em;
+	overflow: hidden;
+	background-color: silver;
+}
+
+.flexbox > li > img {
+	float: right;
+}
+
+.dark {
+	background-color: darkslategray;
+	color: #f9f9f9;
+}
+
+body {
+	background-color: #f9f9f9;
+	color: darkslategray;
+}
