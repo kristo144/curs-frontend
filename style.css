@@ -235,3 +235,23 @@ body {
 .langs-table tbody td:not(:first-child) {
 	text-align: center;
 }
+
+.contact-form-texts {
+	display: grid;
+	grid-template-columns: max-content max-content;
+	grid-gap: 5px;
+}
+
+.contact-form-texts textarea {
+	width: 60em;
+	height: 20em;
+}
+
+.contact-form label {
+	text-align: right;
+}
+
+.contact-form button {
+	padding: 1.5em;
+	margin-top: 1em;
+}

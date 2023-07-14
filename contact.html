@@ -3,30 +3,30 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Contacto</title>
+		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
-		<header>
+		<header class="navbar">
 			<a href="index.html">
-				<img src="assets/icon/home.svg"/>
+				<img src="assets/icon/house.svg"/>
 			</a>
-			<nav>
+			<nav class="navbar-links">
 				<a href="index.html">Inicio</a>
 				<a href="cv.html">CV</a>
 				<a href="contact.html">Contacto</a>
 			</nav>
 		</header>
-		<main>
+		<main class="restricted-width">
 			<h1>Contáctame</h1>
-			<form>
-				<label for="campName">Nombre:</label>
-				<input id="campName" type="text" required></input>
-				<br>
-				<label for="campAddr">Correo:</label>
-				<input id="campAddr" type="email" required></input>
-				<br>
-				<label for="campMsg">Mensaje:</label>
-				<textarea id="campMsg" required></textarea>
-				<br>
+			<form class="contact-form">
+				<div class="contact-form-texts">
+					<label for="campName">Nombre:</label>
+					<input id="campName" type="text" required></input>
+					<label for="campAddr">Correo:</label>
+					<input id="campAddr" type="email" required></input>
+					<label for="campMsg">Mensaje:</label>
+					<textarea id="campMsg" required></textarea>
+				</div>
 				<input id="checkData" type="checkbox" required></input>
 				<label for="checkData">Accepto la <a target="_blank" href="assets/img/policy.jpg">politica de tratamiento de datos</a></label>
 				<br>
