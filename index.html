@@ -6,28 +6,27 @@
 		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
-		<header>
+		<header class="navbar">
 			<a href="index.html">
-				<img src="assets/icon/home.svg"/>
+				<img src="assets/icon/house.svg"/>
 			</a>
-			<nav>
+			<nav class="navbar-links">
 				<a href="index.html">Inicio</a>
 				<a href="cv.html">CV</a>
 				<a href="contact.html">Contacto</a>
 			</nav>
 		</header>
 		<article>
-			<header>
-				<img src="https://picsum.photos/300/100/">
+			<header class="main-title">
 				<h1 id="title">Mi portafolios</h1>
 			</header>
 			<main>
 				<section>
-					<header>
+					<header class="title center">
 						<h2 id="intro">Hola</h2>
 					</header>
-					<main style="overflow:hidden;">
-						<img src="https://picsum.photos/300/200/" style="float:right;">
+					<main class="restricted-width hide-overflow">
+						<img src="https://picsum.photos/300/200/" class="intro-image">
 						<p>
 						Lorem ipsum dolor sit amet.
 						Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -42,11 +41,11 @@
 					</main>
 				</section>
 				<section>
-					<header>
+					<header class="title center">
 						<h2 id="projects">Mis proyectos</h2>
 					</header>
-					<main>
-						<article>
+					<main class="project-card-container restricted-width">
+						<article class="project-card">
 							<img src="https://picsum.photos/100/50"/>
 							<p>
 							Lorem ipsum dolor sit amet.
@@ -56,7 +55,7 @@
 							</p>
 							<button>Ver más</button>
 						</article>
-						<article>
+						<article class="project-card">
 							<img src="https://picsum.photos/100/50"/>
 							<p>
 							Lorem ipsum dolor sit amet.
@@ -66,7 +65,7 @@
 							</p>
 							<button>Ver más</button>
 						</article>
-						<article>
+						<article class="project-card">
 							<img src="https://picsum.photos/100/50"/>
 							<p>
 							Lorem ipsum dolor sit amet.
@@ -79,53 +78,65 @@
 					</main>
 				</section>
 				<section>
-					<header>
+					<header class="title center">
 						<h2 id="skills">Mis conocimientos</h2>
 					</header>
-					<main>
+					<main class="restricted-width skills-container">
 						<img src="assets/img/html-1.svg">
 						<img src="assets/img/css-3.svg">
 						<img src="assets/img/javascript-1 1.svg">
 					</main>
 				</section>
 				<section class="dark">
-					<header>
+					<header class="title center">
 						<h2 id="experience">Experiencia</h2>
 					</header>
-					<main>
+					<main class="restricted-width skills-container padded">
 						<img src="assets/img/grafic_html.svg">
 						<img src="assets/img/grafic_css.svg">
 						<img src="assets/img/grafic_js.svg">
 					</main>
 				</section>
 				<section>
-					<header>
+					<header class="title center">
 						<h2 id="hobbies">Mis aficiones</h2>
 					</header>
 					<main>
-						<ul class="flexbox">
+						<ul class="restricted-width hobbies-container">
 							<li>
-								Viajar
+								<span>
+									Viajar
+								</span>
 								<img src="assets/icon/flight.svg">
 							</li>
 							<li>
-								Mirar series
+								<span>
+									Mirar series
+								</span>
 								<img src="assets/icon/live_tv.svg">
 							</li>
 							<li>
-								Música
+								<span>
+									Música
+								</span>
 								<img src="assets/icon/music_note.svg">
 							</li>
 							<li>
-								Pixelart CSS
+								<span>
+									Pixelart CSS
+								</span>
 								<img src="assets/icon/code.svg">
 							</li>
 							<li>
-								Leer
+								<span>
+									Leer
+								</span>
 								<img src="assets/icon/menu_book.svg">
 							</li>
 							<li>
-								Taijitsu
+								<span>
+									Taijitsu
+								</span>
 								<img src="assets/icon/sports_kabaddi.svg">
 							</li>
 						</ul>
@@ -133,16 +144,16 @@
 				</section>
 			</main>
 		</article>
-		<footer class="dark">
+		<footer class="footer dark">
 			<nav>
 				<a href="https://twitter.com/">
-					<img src="assets/img/logo-twitter.svg" style="width:2em;">
+					<img src="assets/img/logo-twitter.svg">
 				</a>
 				<a href="https://linkedin.com/">
-					<img src="assets/img/logo-linkedin.svg" style="width:2em;">
+					<img src="assets/img/logo-linkedin.svg">
 				</a>
 				<a href="https://instagram.com/">
-					<img src="assets/img/logo-instagram.svg" style="width:2em;">
+					<img src="assets/img/logo-instagram.svg">
 				</a>
 			</nav>
 		</footer>
