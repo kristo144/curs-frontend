@@ -60,7 +60,7 @@ function setCardProperties(card, data) {
 	card.querySelector(".card-defense").textContent = data.defense;
 	card.querySelector(".card-id").textContent = data.id;
 	card.querySelector(".card-race").textContent = data.race;
-	card.querySelector(".card-image").src = "/assets/img/" + data.image;
+	card.querySelector(".card-image").src = "../assets/img/" + data.image;
 }
 
 function flipCard(card) {
