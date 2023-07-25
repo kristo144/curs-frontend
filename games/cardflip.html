@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Card flip</title>
+		<link rel="stylesheet" href="/style.css">
+		<link rel="stylesheet" href="cards.css">
+		<script type="text/javascript" src="cardflip.js"></script>
+	</head>
+	<body>
+		<header class="navbar">
+			<a href="/">
+				<img src="/assets/icon/house.svg"/>
+			</a>
+			<nav class="navbar-links">
+				<a href="/">Inicio</a>
+				<a href="/cv.html">CV</a>
+				<a href="/contact.html">Contacto</a>
+				<a href="/games">Juegos</a>
+			</nav>
+		</header>
+		<main class="restricted-width">
+			<h1>Cards</h1>
+			<input type="number" id="cardsNumber" name="cardsNumber" min="1" max="10">
+			<button onclick="playGame()">Get cards</button>
+			<template id="card-template">
+				<article class="card card-facedown">
+					<img class="card-image">
+					<span class="card-name"></span>
+					<span class="card-attack"></span>
+					<span class="card-characteristic-attack"></span>
+					<span class="card-defense"></span>
+					<span class="card-id"></span>
+					<span class="card-race"></span>
+				</article>
+			</template>
+			<section class="card-container">
+			</section>
+		</main>
+	</body>
+</html>
