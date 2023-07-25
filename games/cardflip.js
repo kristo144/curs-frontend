@@ -19,7 +19,7 @@ async function playGame() {
 }
 
 function getFullDeck() {
-	return fetch("/assets/dbz.json").then(data => data.json());
+	return fetch("../assets/dbz.json").then(data => data.json());
 }
 
 // https://en.wikipedia.org/wiki/Fisher-Yates_shuffle
