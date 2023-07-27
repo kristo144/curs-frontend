@@ -5,7 +5,7 @@
 		<title>Card flip</title>
 		<link rel="stylesheet" href="../style.css">
 		<link rel="stylesheet" href="cards.css">
-		<script type="text/javascript" src="cardflip.js"></script>
+		<script type="text/javascript" src="cardfight.js"></script>
 	</head>
 	<body>
 		<header class="navbar">
@@ -20,11 +20,13 @@
 			</nav>
 		</header>
 		<main class="restricted-width">
-			<h1>Card flip</h1>
-			<input type="number" id="cardsNumber" name="cardsNumber" min="1" max="10">
+			<h1>Card fight</h1>
+			<input type="number" id="cardsNumber" name="cardsNumber" min="2" max="10">
 			<button onclick="playGame()">Get cards</button>
+			<p class="info-msg">
+			</p>
 			<template id="card-template">
-				<article class="card card-facedown">
+				<article class="card card-hidden">
 					<img class="card-image">
 					<span class="card-name"></span>
 					<span class="card-attack"></span>

@@ -89,3 +89,13 @@
 	perspective: 30px;
 	transition: var(--transition-duration) ease-in;
 }
+
+/* Card fight */
+
+.card.card-winner {
+	background-color: lightgreen;
+}
+
+.card.card-loser {
+	background-color: indianred;
+}
