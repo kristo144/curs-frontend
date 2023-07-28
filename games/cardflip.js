@@ -21,9 +21,3 @@ async function playGame() {
 function chooseCard(card) {
 	flipCard(card);
 }
-
-function flipCard(card) {
-	let classes = card.classList;
-	classes.add("card-flipping");
-	card.addEventListener(getTransitionEndEventName(), changeCardState);
-}
